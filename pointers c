@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+  int a = 10; // variable
+  std::cout << a << "\n";
+  
+  int* pa = &a; // pointer to the a address 
+  std::cout << pa << "\n"; // a adress
+  
+  std::cout << *pa << "\n"; // value of a adress (10)
+  
+  *pa=*pa+1; // increase value of a adress +1 
+  std::cout << *pa << "\n"; // the result is (10+1)
+  }
