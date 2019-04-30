@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+ 
+<script>
+console.log("javascript is working");
+</script>
+</body>
+</html>
+
+
+JavaScript should be separate to your HTML, so remove this 
+
+<script>
+console.log("javascript is working");
+</script>
+
+
+and add this 
+
+<script src="script.js"></script> 
+
+
+Then a `script.js` and add the JavaScript code there.
